@@ -39,12 +39,14 @@
 
 ## How To Use
 
-To add project_24 to your server, use this link:
+To add project_24 to your server, use one of these links:
 
-https://discordapp.com/oauth2/authorize?client_id=436549117641693697&scope=bot&permissions=322624
+https://discordapp.com/oauth2/authorize?client_id=1211173152961339453&scope=bot&permissions=8
+
+https://discord.com/api/oauth2/authorize?client_id=1211173152961339453&permissions=8&scope=bot%20applications.commands
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
+This project is licensed under the Apache License 2.0 - see the [LICENSE.md](LICENSE) file for details
 
 
