@@ -14,10 +14,10 @@
          alt="Version">
   </a>
   <a href="https://github.com/IAmTheWalrus/project_24/blob/master/LICENSE">
-    <img src="https://img.shields.io/badge/license-MIT-blue.svg?cacheSeconds=2592000"
+    <img src="https://img.shields.io/badge/license-APACHE-blue.svg?cacheSeconds=2592000"
          alt="License">
   </a>
-  <a href="https://discord.gg/U7pTdN4">
+  <a href="https://discord.gg/6Ub3ax3jcA">
     <img src="https://img.shields.io/discord/436549117641693697.svg?logo=discord&colorB=7289DA"
          alt="Discord">
   </a>
