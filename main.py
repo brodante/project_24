@@ -1,20 +1,18 @@
-import inspect
-from colorama import Style
 import discord
 from discord.ext import commands
-from discord import Interaction
+import music_commands
 
 bot=commands.Bot(command_prefix="!",intents=discord.Intents.all())
 
-import discord
+# Import and register music commands from music_commands.py
+bot.add_command(music_commands.play_)
+bot.add_command(music_commands.queue_)
+bot.add_command(music_commands.skip_)
+bot.add_command(music_commands.pause_)
+bot.add_command(music_commands.resume_)
+bot.add_command(music_commands.disconnect_)
 
-intents = discord.Intents.default()
-intents.typing = False
-intents.presences = False
-
-client = discord.Client(intents=intents)
-
-# Rest of your code goes here
+# Add other music commands from music_commands.py as needed
 
 @bot.event
 async def on_ready():

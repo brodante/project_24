@@ -1,3 +1,17 @@
 # Ignore token and environment variable files
 token.txt
 *.env
+__pycache__
+downloads
+.vscode
+ffmpeg.exe
+
+google-images-download
+
+notes.txt
+token.txt
+
+*.jpg
+*.jpeg
+*.png
+*.gif
